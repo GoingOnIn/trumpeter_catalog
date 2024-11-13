@@ -37,12 +37,12 @@
         <form accept-charset="UTF-8" action="" class="search form-inline navbar-form" method="get" novalidate="novalidate">
           <div class="control-group form-group select optional search_keyword_contains">
             <label class="select optional control-label" for="keyword_contains">Search</label>
-            <input class="select optional form-control" id="keyword_contains" type="text" name="search[keyword_contains]"/>
+            <input class="select optional form-control" id="keyword_contains" type="text" name="search[keyword_contains]" placeholder="Enter search keywords"/>
           </div>
           <div class="control-group form-group select optional search_category_equals">
             <label class="select optional control-label" for="category_equals">Category</label>
             <select class="select optional form-control" id="category_equals" name="search[category_equals]">
-              <option value=""></option>
+              <option value="" selected>Any Category</option>
               <option value="Armor">Armor</option>
               <option value="Buildings">Buildings</option>
               <option value="Car">Car</option>
@@ -55,7 +55,7 @@
           <div class="control-group form-group select optional search_scale_equals">
             <label class="select optional control-label" for="scale_equals">Scale</label>
             <select class="select optional form-control" id="scale_equals" name="search[scale_equals]">
-              <option value=""></option>
+              <option value="" selected>Any Scale</option>
               <option value="1:12">1:12</option>
               <option value="1:16">1:16</option>
               <option value="1:24">1:24</option>
